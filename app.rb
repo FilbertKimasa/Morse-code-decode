@@ -13,3 +13,7 @@ MORSE_CODE_DICT = {
   '7'=>'--...', '8'=>'---..', '9'=>'----.',
   '0'=>'-----', ' '=>'   '
 }
+
+def decode_char(moscode_char)
+  MORSE_CODE_DICT.key(moscode_char)
+end
