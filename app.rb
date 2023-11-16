@@ -38,5 +38,4 @@ def decode_message(morse_message)
   decoded_message.strip
 end
 
-
-puts  decode_message("-- -.--   -. .- -- .")
+# puts  decode_message("-- -.--   -. .- -- .")
