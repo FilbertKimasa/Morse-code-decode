@@ -17,3 +17,13 @@ MORSE_CODE_DICT = {
 def decode_char(moscode_char)
   MORSE_CODE_DICT.key(moscode_char)
 end
+
+def decode_word(morse_word)
+  morse_chars = morse_word.split(' ')
+  decoded_word = ''
+  morse_chars.each do |morse_char|
+    char = decode_char(morse_char)
+    decoded_word += char unless char.nil?
+  end
+  decoded_word
+end
