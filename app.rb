@@ -14,8 +14,8 @@ MORSE_CODE_DICT = {
   '0'=>'-----', ' '=>'   '
 }
 
-def decode_char(moscode_char)
-  MORSE_CODE_DICT.key(moscode_char)
+def decode_char(morse_char)
+  MORSE_CODE_DICT.key(morse_char)
 end
 
 def decode_word(morse_word)
