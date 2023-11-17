@@ -33,7 +33,7 @@ def decode_message(morse_message)
   decoded_message = ''
   morse_words.each do |morse_word|
     decoded_word = decode_word(morse_word)
-  decoded_message += decoded_word + ' '
+    decoded_message += "#{decoded_word} "
   end
   decoded_message.strip
 end
