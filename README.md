@@ -74,14 +74,12 @@ In the project folder run the following
 bundle install
 
 gem install rubocop
-
 ```
 
 To run the program you have to run
 
 ```
 ruby app.rb
-
 ```
 
 ### Authors
